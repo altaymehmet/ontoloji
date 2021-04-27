@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:7805f002-1ba4-475e-9c42-63530c8fbb5b#"
+     xml:base="urn:webprotege:ontology:7805f002-1ba4-475e-9c42-63530c8fbb5b"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:7805f002-1ba4-475e-9c42-63530c8fbb5b"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2BvMko91samuabBXnVn3r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2BvMko91samuabBXnVn3r">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ergün Veren</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050968514</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doğan Kitap</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anadolu Halk Takvimi</dc:title>
+        <rdfs:label xml:lang="tr">Anadolu Halk Takvimi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Anadolu-Halk-Takvimi/Ergun-Veren/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0001854442001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7axqOBbtxEILl4ZxUs4GlN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7axqOBbtxEILl4ZxUs4GlN">
+        <dc:creator xml:lang="tr">İlber Ortaylı</dc:creator>
+        <dc:date xml:lang="tr">2021</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057635983</dc:description>
+        <dc:format xml:lang="tr">basılı</dc:format>
+        <dc:language xml:lang="tr">türkçe</dc:language>
+        <dc:publisher xml:lang="tr">kronik kitap</dc:publisher>
+        <dc:title xml:lang="tr">Yakın Tarihin Gerçekleri</dc:title>
+        <rdfs:label xml:lang="tr">Yakın Tarihin Gerçekleri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Yakin-Tarihin-Gercekleri/Arastirma-Tarih/Tarih/Turk-Tarihi/urunno=0001912080001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxSZdJf80nb8KBkmPzT93n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxSZdJf80nb8KBkmPzT93n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R2BvMko91samuabBXnVn3r"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7axqOBbtxEILl4ZxUs4GlN"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUklXr99FqQpUcWnER9kHK"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCaHpFQiLTyad2BK1939s8T"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSLR1O3lrznSjSQI6XWAE0"/>
+        <rdfs:label xml:lang="tr">history books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUklXr99FqQpUcWnER9kHK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUklXr99FqQpUcWnER9kHK">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustafa Kemal Atatürk</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051718583</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfa Yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutuk</dc:title>
+        <rdfs:label xml:lang="tr">Nutuk</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Nutuk/Arastirma-Tarih/Tarih/Ataturk/urunno=0001720020001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaHpFQiLTyad2BK1939s8T -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaHpFQiLTyad2BK1939s8T">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSLR1O3lrznSjSQI6XWAE0"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falih Rıfkı Atay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789756461631</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pozitif Yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çankaya</dc:title>
+        <rdfs:label xml:lang="tr">Çankaya</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Cankaya/Arastirma-Tarih/Tarih/Cumhuriyet-Tarihi/urunno=0000000260988"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSLR1O3lrznSjSQI6XWAE0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSLR1O3lrznSjSQI6XWAE0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCaHpFQiLTyad2BK1939s8T"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falih Rıfkı Atay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055514051</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pozitif yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeytindağı</dc:title>
+        <rdfs:label xml:lang="tr">Zeytindağı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Zeytindagi/Falih-Rifki-Atay/Arastirma-Tarih/Tarih/Cumhuriyet-Tarihi/urunno=0000000332300"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
